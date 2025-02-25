@@ -1,0 +1,25 @@
+.message-container {
+    background: #2a2a3b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.message-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff4c4c;
+}
+
+.message-coords {
+    font-size: 14px;
+    background: #1e1e2f;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #00d1ff;
+}
