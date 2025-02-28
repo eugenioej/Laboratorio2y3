@@ -4,10 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import { AppCounter } from './components/AppCounter.jsx'
 import { StudentForm } from './components/SimpleForm.jsx'
+import { CustomHook } from './components/CustomHook.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <StudentForm />
-    <AppCounter />
+    <CustomHook/>
   </StrictMode>,
 )
+
